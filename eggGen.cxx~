@@ -51,7 +51,7 @@ int main()
 		eggGenDASY.seekg(0, ios::end);
 		int eggGenDASYend = eggGenDASY.tellg();
 		eggGenDASY.seekg(0, ios::beg);
-		cout<<"eggGen:Size of DATA Lab data file (in bytes)= "<<eggGenDASYend - eggGenDASYbeg<<"\n";
+		cout<<"eggGen:Size of DASY Lab data file (in bytes)= "<<eggGenDASYend - eggGenDASYbeg<<"\n";
 	}
 		
 	cout<<"=====eggGen:Writing to .egg File=========\n";
